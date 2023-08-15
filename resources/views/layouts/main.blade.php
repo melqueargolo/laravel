@@ -39,8 +39,7 @@
           <li class="nav-item">
             <form action="/logout" method="POST">
               @csrf
-              <a href="/logout" class="nav-link" onclick="event.preventDefault();
-                    this.closest('form').submit();">
+              <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">
                 Sair
               </a>
             </form>
@@ -69,7 +68,7 @@
     </div>
   </main>
   <footer>
-    <p>HDC Events &copy; 2020</p>
+    <p>HDC Events &copy; 2023</p>
   </footer>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
